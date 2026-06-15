@@ -1,0 +1,145 @@
+/* PAKO Color System Utilities
+   These classes provide consistent access to the new color theme
+   across all components */
+
+@layer utilities {
+  /* ===== Financial State Colors ===== */
+  
+  /* Positive / Growth States */
+  .text-state-positive {
+    color: #3BCE71;
+  }
+  
+  .bg-state-positive {
+    background-color: #3BCE71;
+  }
+  
+  .bg-state-positive\/10 {
+    background-color: rgba(59, 206, 113, 0.1);
+  }
+  
+  .bg-state-positive\/20 {
+    background-color: rgba(59, 206, 113, 0.2);
+  }
+  
+  .border-state-positive {
+    border-color: #3BCE71;
+  }
+  
+  /* Warning / Caution States */
+  .text-state-warning {
+    color: #FFD23F;
+  }
+  
+  .bg-state-warning {
+    background-color: #FFD23F;
+  }
+  
+  .bg-state-warning\/10 {
+    background-color: rgba(255, 210, 63, 0.1);
+  }
+  
+  .border-state-warning {
+    border-color: #FFD23F;
+  }
+  
+  /* Negative States (Soft) */
+  .text-state-negative {
+    color: #EE4266;
+  }
+  
+  .bg-state-negative {
+    background-color: #EE4266;
+  }
+  
+  .bg-state-negative\/10 {
+    background-color: rgba(238, 66, 102, 0.1);
+  }
+  
+  .border-state-negative {
+    border-color: #EE4266;
+  }
+  
+  /* ===== Rewards & XP ===== */
+  
+  .text-rewards {
+    color: #FFD23F;
+  }
+  
+  .bg-rewards {
+    background-color: #FFD23F;
+  }
+  
+  .bg-rewards-light {
+    background-color: #FFF3C4;
+  }
+  
+  /* ===== Bubbles AI ===== */
+  
+  .text-bubbles {
+    color: #EE4266;
+  }
+  
+  .bg-bubbles {
+    background-color: #EE4266;
+  }
+  
+  .bg-bubbles-light {
+    background-color: #FAD4DE;
+  }
+  
+  /* ===== Page Backgrounds ===== */
+  
+  .bg-page-primary {
+    background-color: var(--page-bg-primary);
+  }
+  
+  .bg-page-secondary {
+    background-color: var(--page-bg-secondary);
+  }
+  
+  /* ===== Card Backgrounds ===== */
+  
+  .bg-card-secondary {
+    background-color: var(--card-bg-secondary);
+  }
+  
+  /* ===== Text Hierarchy ===== */
+  
+  .text-primary-pako {
+    color: var(--text-primary);
+  }
+  
+  .text-secondary-pako {
+    color: var(--text-secondary);
+  }
+  
+  .text-muted-pako {
+    color: var(--text-muted);
+  }
+  
+  .text-disabled-pako {
+    color: var(--text-disabled);
+  }
+  
+  /* ===== Brand Colors ===== */
+  
+  .bg-brand-accent {
+    background-color: var(--brand-accent-soft);
+  }
+  
+  .text-brand-accent {
+    color: var(--brand-accent-soft);
+  }
+  
+  /* ===== Dividers ===== */
+  
+  .border-divider {
+    border-color: var(--divider);
+  }
+}
+
+/* Dark mode specific overrides if needed */
+.dark {
+  /* Any dark mode specific utilities can go here */
+}
